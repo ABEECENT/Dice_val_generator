@@ -1,0 +1,59 @@
+### Dice rolling simulator
+import random
+
+### try again loop
+key='y'
+
+print('< < < Welcome to my dice simulator system!!! > > >'+'\n')
+
+while(key=='y'):
+
+### to Display the dice image
+
+    val=random.randint(1,6)
+
+    if(val==1):
+        print('-----------')
+        print('|         |')
+        print('|    0    |')
+        print('|         |')
+        print('-----------')
+
+    elif(val==2):
+        print('-----------')
+        print('| 0       |')
+        print('|         |')
+        print('|       0 |')
+        print('-----------')
+
+    elif(val==3):
+        print('-----------')
+        print('| 0       |')
+        print('|    0    |')
+        print('|       0 |')
+        print('-----------')
+
+    elif(val==4):
+        print('-----------')
+        print('| 0     0 |')
+        print('|         |')
+        print('| 0     0 |')
+        print('-----------')
+
+    elif(val==5):
+        print('-----------')
+        print('| 0     0 |')
+        print('|    0    |')
+        print('| 0     0 |')
+        print('-----------')
+
+    else:
+        print('-----------')
+        print('| 0     0 |')
+        print('| 0     0 |')
+        print('| 0     0 |')
+        print('-----------')
+
+### key press
+    print('\n')
+    key=input('Press y to roll again = ')
